@@ -1,0 +1,14 @@
+Method,Name,Error,Occurrences
+POST,[nebius] /chat (invalid),HTTPError('422 Client Error: Unprocessable Entity for url: [nebius] /chat (invalid)'),3330
+POST,[nebius] /chat (medium),HTTPError('404 Client Error: Not Found for url: [nebius] /chat (medium)'),9961
+POST,[nebius] /chat (invalid),HTTPError('502 Server Error: Bad Gateway for url: [nebius] /chat (invalid)'),2
+POST,[nebius] /chat (medium),HTTPError('502 Server Error: Bad Gateway for url: [nebius] /chat (medium)'),7
+POST,[nebius] /chat (small),HTTPError('502 Server Error: Bad Gateway for url: [nebius] /chat (small)'),13
+POST,[nebius] uncontrolled,HTTPError('404 Client Error: Not Found for url: [nebius] uncontrolled'),3317
+POST,[nebius] /chat (long),HTTPError('404 Client Error: Not Found for url: [nebius] /chat (long)'),6514
+POST,[nebius] fixed_long,HTTPError('502 Server Error: Bad Gateway for url: [nebius] fixed_long'),5
+LLM,[nebius] stream error,"ConnectionError(MaxRetryError('HTTPSConnectionPool(host=\'api.studio.nebius.com\', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x....>: Failed to resolve \'api.studio.nebius.com\' ([Errno 8] nodename nor servname provided, or not known)""))'))",1
+POST,[nebius] /chat (long),HTTPError('502 Server Error: Bad Gateway for url: [nebius] /chat (long)'),9
+POST,[nebius] uncontrolled,HTTPError('502 Server Error: Bad Gateway for url: [nebius] uncontrolled'),3
+POST,[nebius] fixed_long,HTTPError('404 Client Error: Not Found for url: [nebius] fixed_long'),6415
+POST,[nebius] /chat (small),HTTPError('404 Client Error: Not Found for url: [nebius] /chat (small)'),13408
